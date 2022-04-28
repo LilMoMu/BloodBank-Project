@@ -1,0 +1,20 @@
+Business Rules/Relationships 
+Blood Bank : Donor - 1:N
+Many donors visit one blood bank
+A blood bank receives/is visited by many donors
+Blood Bank : Donation - 1:N
+A blood bank keeps track of many donations
+Many donations are received by a single blood bank
+Donor : Donation - 1:1
+A donor provides a single donation
+A single donation is given by a single donor
+Blood Bank : BB Inventory - 1:1
+A blood bank has one inventory
+The inventory belongs to one blood bank
+BB Inventory : Donation - 1:N
+The blood bank inventory houses multiple donations
+Multiple donations are housed in the blood bank inventory
+
+
+
+
